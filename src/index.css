@@ -1,13 +1,298 @@
-body {
+*body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  padding: 5px 100px;
+  width: 100%;
+}
+/*============================section-header=====================*/
+.section-header .logo {
+  width: 175px;
+  height: 90px;
+  margin-left: 80px;
+}
+.section-header .logo img {
+  height: 100%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*============================login-section=====================*/
+
+.login-section .login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.login-section .login-page {
+  margin-left: 100px;
+}
+.login-section .login-page .login-data .heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.login-section .login-page .login-data .login-info {
+  width: 100%;
+}
+.login-section .login-page .login-data .login-info label {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin-top: 20px;
+}
+.login-section .login-page .login-data .login-info input {
+  height: 50px;
+  width: 400px;
+}
+.login-section .login-page .login-data .login-info {
+}
+.forgot-pass {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.forgot-pass a {
+  text-decoration: none;
+}
+.login-section .submit button {
+  height: 50px;
+  width: 187px;
+}
+.login-page .login-data .login-info label {
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+.login-page .login-data .login-info .submit {
+  margin-top: 20px;
+}
+.login-page .submit .sub {
+  height: 50px;
+  width: 400px;
+  background-color: rgb(27, 27, 102);
+  color: white;
+}
+.login-page .submit .sub:hover {
+  background-color: rgb(93, 93, 213);
+}
+.login-page .add-button {
+  margin-top: 25px;
+  display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+.login-page .add-button .sub_1 {
+  background-color: rgb(27, 27, 102);
+  color: white;
+}
+.login-page .login-data .login-info .add-button .sub_1 {
+  background-color: rgb(93, 93, 213);
+}
+.login-page .add-button a {
+  text-decoration: none;
+  color: white;
+}
+.login-page .sub_1:hover {
+  background-color: rgb(52, 52, 144);
+}
+.login-section .image {
+  height: 600px;
+  width: 600px;
+}
+
+.login-section .image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+/*================================================*/
+/* das-section */
+/*================================================*/
+.das-section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.das-section .dashboard .heading {
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 50px;
+
+padding-bottom: 50px;
+}
+
+.box .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 415px;
+  height: 80px;
+  padding-left: 30px;
+	box-shadow: 0 10px 30px rgba(132, 130, 130, 0.3);
+}
+.box .card .icon {
+  border-radius: 10px;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(25, 25, 107);
+}
+.box .card .text{
+  padding-right: 230px;
+}
+.box .textes{
+  padding-right: 180px;
+}
+.box .texte{
+  padding-right: 195px;
+}
+.staff{
+  padding-right: 30px;
+  color: rgb(25, 25, 107);
+  font-weight: bold;
+  font-size: 18px;
+}
+.das-section .box{
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+gap: 30px;
+} 
+
+/*================================================*/
+/* table-section */
+/*================================================*/
+.table-section{
+  width: 100%;
+  padding: 50px 100px;
+}
+.tab-sec{
+  padding-top: 4vh;
+  border-radius: 15px;
+}
+
+.card_car{
+  width: 95%;
+  border: none;
+  border-radius: 2vh;
+  padding-bottom: 4vh;
+  box-shadow: 0 10px 30px rgba(132, 130, 130, 0.3);
+
+}
+.card-box .heading{
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+ color: rgb(41, 41, 146);
+}
+
+table{
+  height: 100%;
+  width: 100%;
+}
+
+.table thead{
+vertical-align: bottom;
+}
+.table thead tr th tbody{
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.card_car-wapper{
+  width: 95%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(132, 130, 130, 0.3);
+
+}
+.table-wapper{
+  padding-left: 8vh;
+ 
+}
+
+.table-wapper{
+  max-height: 300px;
+  overflow-y: scroll;
+  
+}
+
+.tab-name{
+}
+/*======================col-xxl-7===============*/
+.card{
+ padding: 0;
+ margin: 0;
+ box-shadow: 0 10px 30px rgba(132, 130, 130, 0.3);
+ border: none;
+
+}
+.cal_heading{
+  padding-top: 4vh;
+}
+.select-option{
+  padding: 4vh;
+}
+select{
+  float: right;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 4px;
+  border: 2px solid rgb(245, 245, 247);
+}
+
+th{
+  padding-left: 4vh;
+  background-color: rgb(235, 235, 240);
+}
+td{
+  padding-left: 4vh;
+}
+h5{
+  padding-left: 4vh;
+}
+
+/*=================col-xxl-7================*/
+
+.col-xxl-7 .card{
+  height: 100%;
+  width: 100%;
+}
+
+.cal_heading{
+  color: rgb(41, 41, 146);
+}
+
+           
+/*================ col-xl-12 col-lg-12 col-md-12================*/
+.col-xl-12 {
+  padding-top: 4vh;
+  width: 100%;
+}
+.table{
+  top: 0px;
+}
+.card_table{
+max-width: 100%;
+  overflow-y: scroll;
+}
+.card-heading{
+  padding-top: 4vh;
+  padding-left: 4vh;
+  padding-bottom: 2vh;
+  color: rgb(41, 41, 146);
+}
+.table th{
+  background-color: rgb(223, 223, 240);
 }
