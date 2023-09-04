@@ -2,7 +2,7 @@ import React from "react";
 import Abc from "./Abc";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Super from "./pages/Super";
-import Incomes from "./Report/Incomes";
+import Expense from "./Report/Expense";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Abc />} />
         <Route path="/Super" element={<Super />} />
-        <Route path="/Incomes" element={<Incomes />} />
+        <Route path="/Expense" element={<Expense />} />
       </Routes>
     </Router>
   );

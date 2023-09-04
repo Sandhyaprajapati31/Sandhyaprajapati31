@@ -156,7 +156,8 @@ function Super() {
                             <th>NAME</th>
                             <th>STATUS</th>
                           </tr>
-                          <tbody>
+                          </thead>
+                          <tbody className="list">
                             <tr>
                               <td>sandhya</td>
                               <td>Absent</td>
@@ -219,7 +220,7 @@ function Super() {
 
                            
                           </tbody>
-                        </thead>
+                       
                       </table>
                     </div>
                   </div>
