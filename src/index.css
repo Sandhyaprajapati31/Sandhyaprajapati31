@@ -150,11 +150,13 @@ padding-bottom: 50px;
   padding-right: 230px;
 }
 .box .textes{
-  padding-right: 180px;
+  padding-right: 172px;
 }
+
 .box .texte{
-  padding-right: 195px;
+  padding-right: 212px;
 }
+
 .staff{
   padding-right: 30px;
   color: rgb(25, 25, 107);
@@ -253,11 +255,11 @@ select{
 }
 
 th{
-  padding-left: 4vh;
+   padding-left: 4vh; 
   background-color: rgb(235, 235, 240);
 }
 td{
-  padding-left: 4vh;
+   padding-left: 4vh;  
 }
 h5{
   padding-left: 4vh;
@@ -296,3 +298,81 @@ max-width: 100%;
 .table th{
   background-color: rgb(223, 223, 240);
 }
+
+
+
+
+
+
+
+
+
+/*===========================================*/
+/*===========================================*/
+/*====================Ecpense===============*/
+/*===========================================*/
+/*===========================================*/
+.in-section{
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.icomepage{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.home-link{
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  padding-left: 30px;
+}
+.home-link a{
+  text-decoration: none;
+  color: rgb(15, 15, 150);
+}
+.download-page{
+  padding-top: 10px;
+}
+
+
+
+/*===========================================*/
+/*====================section-5===============*/
+/*===========================================*/
+/*===========================================*/
+
+.section-5{
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.card-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 800px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  gap: 20px;
+ 
+}
+.box1{
+  height: 50px;
+}
+.box1 input{
+  height: 40px;
+  width: 210px;
+border: 1px solid rgb(224, 220, 220);
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
